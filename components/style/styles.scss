@@ -82,17 +82,23 @@ body{
             text-align: center;
             font-size: x-large;
         }
-        button{
+        div{
             margin-bottom: 12px;
-            background-color: var(--button-color);
-            border-color: var(--button-color);
-            color: white;
-            border-radius: 5%;
-            width: 30%;
             height: 30px;
+            a{
+                button{
+                    background-color: var(--button-color);
+                    border-color: var(--button-color);
+                    color: white;
+                    border-radius: 5%;
 
-            &:hover{
-                background-color: var(--button-color-hover);
+                    width: 250px;
+                    height: 30px;
+    
+                    &:hover{
+                        background-color: var(--button-color-hover);
+                    }
+                }
             }
         }
     }

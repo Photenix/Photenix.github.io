@@ -111,17 +111,21 @@ body {
   font-size: x-large;
 }
 
-.web .card button {
+.web .card div {
   margin-bottom: 12px;
+  height: 30px;
+}
+
+.web .card div a button {
   background-color: var(--button-color);
   border-color: var(--button-color);
   color: white;
   border-radius: 5%;
-  width: 30%;
+  width: 250px;
   height: 30px;
 }
 
-.web .card button:hover {
+.web .card div a button:hover {
   background-color: var(--button-color-hover);
 }
 /*# sourceMappingURL=styles.css.map */
