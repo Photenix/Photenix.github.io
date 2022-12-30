@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Clash Royale",
+        "url": "/Clash-Royale-web",
+        "img": "./img/QuienMeMontaLaPuerca.png"
+    },
+    {
+        "name": "Paises Geek",
+        "url": "/Geo-paisesGeek",
+        "img": "./img/PaisesChingones.png"
+    },
+    {
+        "name": "Shot'em up JQuery",
+        "url": "/shoot-em-up-JQuery",
+        "img": "./img/Shot'em up.jpg"
+    }
+]

@@ -15,52 +15,33 @@ body {
   background-color: #494949;
   width: 100%;
   height: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 .social h1 {
   padding-top: 20px;
   padding-left: 20px;
   color: white;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .description {
   height: 180px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #5757ee;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(87, 87, 238);
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
-
 .description h2 {
   color: white;
   font-size: xx-large;
 }
-
 .description p {
   width: 50%;
-  color: #ecc793;
+  color: rgb(236, 199, 147);
   font-size: x-large;
   text-align: center;
 }
@@ -68,35 +49,23 @@ body {
 .web {
   background-color: #9b9b9b;
   min-height: 400px;
-  display: -ms-grid;
   display: grid;
   padding: 40px 32px 20px;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
 }
-
 .web .card {
   border-radius: 10%;
   background-color: white;
   height: auto;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   border: solid black 1px;
-  margin-right: 20px;
+  box-shadow: 5px 4px 2px rgba(0, 0, 0, 0.4392156863);
 }
-
 .web .card img {
   width: 100%;
   height: 450px;
@@ -104,18 +73,15 @@ body {
      object-fit: cover;
   border-bottom: solid 1px black;
 }
-
 .web .card h3 {
   margin: 20px 0;
   text-align: center;
   font-size: x-large;
 }
-
 .web .card div {
   margin-bottom: 12px;
   height: 30px;
 }
-
 .web .card div a button {
   background-color: var(--button-color);
   border-color: var(--button-color);
@@ -123,9 +89,9 @@ body {
   border-radius: 5%;
   width: 250px;
   height: 30px;
+  transition: 0.5s;
 }
-
 .web .card div a button:hover {
+  cursor: pointer;
   background-color: var(--button-color-hover);
 }
-/*# sourceMappingURL=styles.css.map */
