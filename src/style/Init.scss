@@ -1,0 +1,54 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.skills{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.my-name{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    img{
+        height: 200px;
+        width: 250px;
+    }
+}
+
+#myChart{
+    width: 500px;
+    height: 500px;
+}
+  
+#my-chart-movil{
+    display: none !important;
+}
+
+
+@media ( max-width : 500px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .my-name{
+        flex-direction: column;
+    }
+
+    #myChart{
+        display: none !important;
+    }
+
+    #my-chart-movil{
+      display: block !important;
+    }
+}

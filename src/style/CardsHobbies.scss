@@ -1,0 +1,50 @@
+#cards-hobbyies{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+    align-items: stretch;
+}
+
+.card-hobby{
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    justify-items: stretch;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    padding-left: 20px;
+
+    width: calc( 100% - 40px );
+    font-size: 20px;
+    align-items: stretch;
+    min-height: 150px;
+    
+
+    img{
+        background-color: #213547;
+    }
+}
+
+@media ( max-width : 500px) {
+
+    #cards-hobbyies{
+        width: inherit;
+    }
+
+    .card-hobby{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        width: 100%;
+        height: inherit;
+        p{
+            padding: 0 8px;  
+        }
+
+        img{
+            height: 150px;
+        }
+    }
+}
