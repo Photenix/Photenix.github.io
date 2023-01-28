@@ -66,6 +66,7 @@
             height: 450px;
             object-fit:cover;
             border-bottom: solid 1px black;
+            background-color: #fff;
         }
 
         h3{
@@ -74,7 +75,7 @@
         }
 
         button{
-            $BTNColor: rgb(51, 38, 10);
+            $BTNColor: rgb(10, 23, 51);
             background-color: $BTNColor;
             border-color: $BTNColor;
             color: white;
@@ -89,7 +90,7 @@
 
             &:hover{
                 cursor: pointer;
-                background-color: rgb(51, 45, 31);
+                background-color: rgb(43, 42, 40);
             }
         }
     }

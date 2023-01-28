@@ -1,6 +1,6 @@
 import '../style/Portfolio.scss'
 import dB from '../dB/page.json'
-import CardProyect from '../component/CardProyect';
+import CardProject from '../component/CardProject';
 import { BiHomeAlt } from "react-icons/bi";
 import { useNavigate } from 'react-router-dom';
 
@@ -27,7 +27,7 @@ function Portfolio() {
                 {
                     dB.map( (e, i) => {
                         const state = i % 2 ?'fade-left' :'fade-right'
-                        return <CardProyect objet={e} fade={state} /> 
+                        return <CardProject objet={e} fade={state} /> 
                     })
                 }
             </div>

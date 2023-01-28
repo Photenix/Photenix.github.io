@@ -1,4 +1,4 @@
-type prop = {
+type props = {
     objet : page,
     fade?: string,
 }
@@ -12,20 +12,20 @@ interface page {
 
 import { BiCoffee } from "react-icons/bi";
 
-function CardProyect({ objet, fade = 'fade-left' } : prop ) {
+function CardProject({ objet, fade = 'fade-left' } : props ) {
 
     const { img, name, url, source } = objet
 
     return ( 
         <div className="card" data-aos={ fade }>
             <img src={ img }  alt="" />
-            <h3>{ name } </h3>
-            <a href={ url }>
+            <h2>{ name } </h2>
+            <a href={ url } target="_blank">
                 <button className="card-button">
                     Ir a pagina
                 </button>
             </a>
-            <a href={ source }>
+            <a href={ source } target="_blank">
                 <button className="card-button">
                     <BiCoffee size={30}/>
                     codigo fuente
@@ -35,4 +35,4 @@ function CardProyect({ objet, fade = 'fade-left' } : prop ) {
     );
 }
 
-export default CardProyect;
+export default CardProject;

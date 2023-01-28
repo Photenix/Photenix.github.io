@@ -17,7 +17,7 @@ function Init() {
         <>
             <div className="my-name" data-aos="fade-left">
                 <h1>JM4P1R0</h1>
-                <img src="." alt="."/>
+                <img src="https://cdn.dribbble.com/users/10882/screenshots/3968914/media/a1de49e79bca30fc5bdfca0adf14cf00.png?compress=1&resize=400x300" alt="."/>
             </div>
             <CardsHobbies/>
             <div className="skills">
