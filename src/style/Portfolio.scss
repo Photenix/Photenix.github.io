@@ -89,8 +89,10 @@
             transition: .25s;
 
             &:hover{
+                $BTNColor: rgb(101, 105, 170);
                 cursor: pointer;
-                background-color: rgb(43, 42, 40);
+                background-color: $BTNColor;
+                border-color: $BTNColor;
             }
         }
     }

@@ -2,6 +2,10 @@
     "about": "About",
     "skills": "Skills",
     "portfolio": "Portfolio",
+    "description-h2": "Here is my works ;)",
+    "description-p": "Until now I have had a modest journey, I hope in future editions to improve it and fill it with great projects, that only time will tell.",
+    "go-to":"Go to display page",
+    "source-code":"Source Code",
     "hobbies": [
         {
             "info":"I like music, listen and compose, my favorites genre are Jpop, Jazz, Rock and Electronic music.",

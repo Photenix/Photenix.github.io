@@ -1,7 +1,6 @@
 import { useState, useContext, useEffect } from "react";
 import CardHobby from "../components/CardHobby";
 import LanguageContext from "../container/Language";
-import dB from '../dB/aboutMeHobbies.json'
 
 import '../style/CardsHobbies.scss'
 import Text from "../tools/Text";

@@ -11,6 +11,7 @@ interface page {
 }
 
 import { BiCoffee } from "react-icons/bi";
+import Text from "../tools/Text";
 
 function CardProject({ objet, fade = 'fade-left' } : props ) {
 
@@ -22,13 +23,13 @@ function CardProject({ objet, fade = 'fade-left' } : props ) {
             <h2>{ name } </h2>
             <a href={ url } target="_blank">
                 <button className="card-button">
-                    Ir a pagina
+                    <Text tid="go-to"/>
                 </button>
             </a>
             <a href={ source } target="_blank">
                 <button className="card-button">
                     <BiCoffee size={30}/>
-                    codigo fuente
+                    <Text tid="source-code"/>
                 </button>
             </a>
         </div>
