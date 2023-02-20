@@ -1,0 +1,63 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+    align-items: stretch;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.card-hobby{
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    justify-items: stretch;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    padding-left: 20px;
+
+    width: calc( 100% - 40px );
+    font-size: 20px;
+    align-items: stretch;
+    min-height: 150px;
+
+    background-color: #ffffff12;
+    
+    p{
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        background-color: #213547;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media ( max-width : 500px) {
+
+    #about{
+        width: inherit;
+    }
+
+    .card-hobby{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        padding-bottom: 8px;
+        width: 100%;
+        height: inherit;
+        p{
+            padding: 0 8px;  
+        }
+
+        img{
+            height: 150px;
+        }
+    }
+}

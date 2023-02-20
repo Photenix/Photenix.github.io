@@ -1,0 +1,27 @@
+{
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "description-h2": "Here is my works ;)",
+    "description-p": "Until now I have had a modest journey, I hope in future editions to improve it and fill it with great projects, that only time will tell.",
+    "go-to":"Go to display page",
+    "source-code":"Source Code",
+    "hobbies": [
+        {
+            "info":"I like music, listen and compose, my favorites genre are Jpop, Jazz, Rock and Electronic music.",
+            "img": "https://api.time.com/wp-content/uploads/2018/04/listening-to-music-headphones.jpg?quality=85&w=1200&h=628&crop=1"
+        },
+        {
+            "info":"I have practiced different sports, I practiced fencing for a long time and parkour for a short time.",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/10/Final_Trophee_Monal_2012_n08.jpg"
+        },
+        {
+            "info":"I don't consider myself a strict to eater, but I do appreciate experiencing different flavors and textures in my meals.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTygSKpKoDsDdunQxjVKZI3MK4i3jvjLbMwTA&usqp=CAU"
+        },
+        {
+            "info":"I love video games, the ones I enjoyed the most when I was little were puzzle games but as the years go by I also like shooters, since I consider that each movement is like a movement in chess.",
+            "img": "https://www.muycomputer.com/wp-content/uploads/2018/07/Hollow-Knight-1000x576.jpg"
+        }
+    ]
+}
