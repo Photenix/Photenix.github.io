@@ -1,9 +1,13 @@
-#cards-hobbyies{
+#about{
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 40px 20px;
     align-items: stretch;
+
+    h2{
+        text-align: center;
+    }
 }
 
 .card-hobby{
@@ -37,7 +41,7 @@
 
 @media ( max-width : 500px) {
 
-    #cards-hobbyies{
+    #about{
         width: inherit;
     }
 

@@ -1,6 +1,6 @@
 import '../style/Portfolio.scss'
 import dB from '../dB/page.json'
-import CardProject from '../component/CardProject';
+import CardProject from '../components/CardProject';
 import { BiHomeAlt } from "react-icons/bi";
 import { useNavigate } from 'react-router-dom';
 

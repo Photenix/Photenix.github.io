@@ -1,5 +1,5 @@
 import Chart, {ChartItem} from 'chart.js/auto';
-import { config, configMovil } from '../component/config';
+import { config, configMovil } from './config';
 
 
 function exeChart() {

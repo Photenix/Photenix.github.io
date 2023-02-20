@@ -1,3 +1,9 @@
+@import "./imports/typed.scss";
+
+body{
+    overflow-x: hidden;
+}
+
 .App{
     display: flex;
     flex-direction: column;
@@ -6,17 +12,52 @@
     margin-bottom: 20px;
 }
 
+.language-select{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: calc( 100% - 8px );
+    padding: 4px;
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+    input[type=button]{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+}
+
+.navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+    a{
+        text-align: center;
+        transition: .4s;
+        padding: 12px 8px;
+        &:hover{
+            background: rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
 .skills{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
     width: 100%;
 }
 
 .my-name{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
     gap: 25px;
 
     img{
@@ -34,15 +75,44 @@
     display: none !important;
 }
 
+#type{
+    &-es{
+        text-align: center;
+        pointer-events: none;
+        @include typed(
+            "Hola mundo",
+            "Soy desarollador front-end",
+            2,
+            (
+                iterations: 1,
+                end-on: "JM4P1R0",
+                caret-width: 5px,
+                caret-space: 2px
+            )
+        );
+    }
+
+    &-en{
+        text-align: center;
+        pointer-events: none;
+        @include typed(
+            "Hello world",
+            "I am front-end developer",
+            2,
+            (
+                iterations: 1,
+                end-on: "JM4P1R0",
+                caret-width: 5px,
+                caret-space: 2px
+            )
+        );
+    }
+    
+}
+
 
 @media ( max-width : 500px) {
-    body{
-        overflow-x: hidden;
-    }
-
-    .my-name{
-        flex-direction: column;
-    }
+    
 
     #myChart{
         display: none !important;
